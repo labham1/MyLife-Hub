@@ -40,19 +40,14 @@ document.addEventListener("DOMContentLoaded", () => {
         initBudget();
     });
 
-    // Weather button: placeholder for future feature
     document.getElementById("nav-weather").addEventListener("click", () => {
-        mainContent.innerHTML = `
-            <h2>Weather</h2>
-            <p>Feature coming soon!</p>
-        `;
-    });
+    initWeather(); // Initialize Weather Module
+});
+
 
     // Quotes button: placeholder for future feature
     document.getElementById("nav-quotes").addEventListener("click", () => {
-        mainContent.innerHTML = `
-            <h2>Quotes</h2>
-            <p>Feature coming soon!</p>
-        `;
-    });
+    initQuote(); // Initialize Quote of the Day
+});
+
 });
