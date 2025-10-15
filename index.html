@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta info and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyLife Hub</title>
+
+    <!-- Link external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header class="header">
+        <h1>MyLife Hub</h1>
+        <!-- Button to toggle light/dark theme -->
+        <button id="theme-toggle">Toggle Theme</button>
+    </header>
+
+    <!-- Main container with sidebar + main content -->
+    <div class="container">
+        <!-- Sidebar navigation -->
+        <nav class="sidebar">
+            <ul>
+                <li><button id="nav-todo">To-Do</button></li>
+                <li><button id="nav-notes">Notes</button></li>
+                <li><button id="nav-budget">Budget</button></li>
+                <li><button id="nav-weather">Weather</button></li>
+                <li><button id="nav-quotes">Quotes</button></li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="main-content" id="main-content">
+            <p>Welcome to MyLife Hub! Select a section from the sidebar.</p>
+        </main>
+    </div>
+
+    <!-- Include feature JS files -->
+    <script src="scripts/notes.js"></script>
+    <script src="scripts/todo.js"></script>
+    <script src="scripts/budget.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
