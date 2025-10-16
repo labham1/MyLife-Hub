@@ -1,7 +1,7 @@
 // scripts/notes.js
 
 // Get reference to the main content area
-const mainContent = document.getElementById("main-content");
+//const mainContent = document.getElementById("main-content");
 
 // Array to hold all notes
 let notes = [];
